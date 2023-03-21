@@ -1,0 +1,40 @@
+
+.descriçao{
+    width: 400px;
+}
+@media(max-width: 450px){
+
+  .descriçao{
+    width: 80%;
+  }
+
+}
+
+#button_compra{
+
+    background-color: green;
+    border: none;
+    width: 400px;
+    height: 40px;
+    margin-top: 20px;
+    font-size: 16pt;
+    color: white;
+}
+
+#button_compra:hover{
+    background-color: rgb(19, 255, 19);
+}
+
+.section_cor{
+    display: inline-flex;
+    background-color: #EDEDED  ;
+    border: 2px solid rgba(0, 0, 0, 0.062);
+    
+}
+
+
+/* JAVASCRIPT*/
+.select{
+  padding: 5px;
+  background-color: #428CB3;
+}

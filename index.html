@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+ <link href="css/style.css" rel="stylesheet">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <title>Ecommerce</title>
+</head>
+<body>
+
+      <header>
+       
+                <div class="logo">
+                    <div style="display: inline-flex;">
+                            <a href="index.html"> <img src="img/head.png" alt="logo de ecommerce"></a> 
+                                <h1>Ecommerce</h1>
+                      </div>
+                </div>
+                <nav class="navegaçao">
+                    <li>
+                        <a href="index.html">Home </a>
+                    </li>
+                </nav>
+                
+      </header>
+  
+
+      <section style="margin-top: 70px" id="carrosel">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide " data-bs-ride="carousel">
+            <div class="carousel-indicators ">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/label_one.jpg" class="d-block w-70 m-auto " alt="..."  id="img_carrosel">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5></h5>
+                  <p></p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="Img/label_two.jpg" class="d-block w-70 m-auto" alt="..." id="img_carrosel">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5></h5>
+                  <p></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Img/label_tree.png" class="d-block w-70 m-auto" alt="..." id="img_carrosel">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5></h5>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev" id="previos_one">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next" id="previos_one" >
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <section id="descricao">
+        <h1>O que é Ecommerce?</h1>
+        <p>E-commerce, ou comércio eletrônico, é uma modalidade de negócio em que as transações comerciais são realizadas totalmente online. Desde a escolha do produto pelo cliente, até a finalização do pedido, com o pagamento, todo o processo deve ser realizado por meios digitais. Sua função, portanto, é vender produtos pela internet.</p>
+      </section>
+
+      <section style="display: flex; margin-top: 5px; margin-bottom: 60px;" id="filtro">
+        <div style="margin: auto; display: flex;">
+          <div style="margin:auto; display: flex;">
+        <h3 >Filtro:</h3>
+        <nav style="display:inline-flex">
+          <li style="margin-left:10px; cursor: pointer;" id="tudo" class="tudo">tudo</li>
+          <li style=" cursor: pointer;" id="btnGarrafa"class='garrafa'>Garrafa</li>
+          <li style="cursor:pointer" id="camisa" class="camisa">Camisa</li>
+          <li style="cursor:pointer" id="relogio" class="relogio">Relogio</li>
+          <li style="cursor:pointer" id="mochila" class="mochila">Mochila</li>
+        </nav>
+        </div>
+      </div>
+      </section>
+
+   <section >
+    <div class="row" style="width: 80%;
+    margin: auto; ">
+
+
+        <div class="col-6 col-md-4 col-lg-4 contItens contGarrafa"  style="margin-top:
+        40px;" >
+             
+            <a href="pag/copoTermico.html" style="text-decoration:none;">
+            <span class="spanFrete"> Frete Gratis</span>
+            <span id="spanOff">5% OFF</span>
+            <img src="img/copoTermico.jpg" alt="Copo termico"  class="itensImg">
+              <h1 class="text-center" style="color: black; font-size: 14pt;">COPO TÉRMICO LUCKY FUTURE MATRIX 591ML - GLÜCK</h1>
+              <p class="text-center"><span style="text-decoration: line-through; color: black;">R$ 249,51</span> </p>
+              <h2 class="text-center" style="color:#ABCB37;">R$: 149,51</h2>
+              <h5 class="text-center" style="color: black;">à vista</h5>
+              </a>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-4 contItens contGarrafa" style="margin-top:
+        40px;">
+             
+            <a href="pag/garrafatermica.html" style="text-decoration:none;">
+            <span class="spanFrete"> Frete Gratis</span>
+            <span id="spanOff">5% OFF</span>
+            <img src="img/garrafaTermica.jpg" alt="garrafa"  class="itensImg">
+              <h1 class="text-center" style="color: black; font-size: 14pt;">GARRAFA TÁTICA ATOMIC 830 ML - INVICTUS</h1>
+              <p class="text-center"><span style="text-decoration: line-through; color: black;">R$ 99,00</span> </p>
+              <h2 class="text-center" style="color:#ABCB37;">R$: 70,00</h2>
+              <h5 class="text-center" style="color: black;">à vista</h5>
+              </a>
+        </div>
+
+        <div class="col-6 col-md-4  col-lg-4 contItens mt-2 contCamisa" style="margin-top: 40px;" >
+             
+            <a href="pag/camisa.html" style="text-decoration:none;">
+            <span class="spanFrete"> Frete Gratis</span>
+            <span id="spanOff">5% OFF</span>
+            <img src="img/camisaShirt.jpg" alt="Camisa"  class="itensImg">
+              <h1 class="text-center" style="color: black; font-size: 14pt;"> CAMISA - SHIRT MOD 711-1 BLACK - FOR HONOR</h1>
+              <p class="text-center"><span style="text-decoration: line-through; color: black;">R$ 290,00</span> </p>
+              <h2 class="text-center" style="color:#ABCB37;">R$: 120,00</h2>
+              <h5 class="text-center" style="color: black;">à vista</h5>
+              </a>
+        </div>
+
+        <div class="col-6 col-md-4  col-lg-4 contItens mt-2 contCamisa" >
+             
+            <a href="pag/camisaPolo.html" style="text-decoration:none;">
+            <span class="spanFrete"> Frete Gratis</span>
+            <span id="spanOff">5% OFF</span>
+            <img src="img/camisaPolo.jpg" alt="camisa Polo"  class="itensImg">
+              <h1 class="text-center" style="color: black; font-size: 14pt;">CAMISA POLO HERO CINZA CROMO – INVICTUS</h1>
+              <p class="text-center"><span style="text-decoration: line-through; color: black;">R$ 120,00</span> </p>
+              <h2 class="text-center" style="color:#ABCB37;">R$: 49,00</h2>
+              <h5 class="text-center" style="color: black;">à vista</h5>
+              </a>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-4 contItens contRelogio">
+             
+            <a href="pag/relogio.html" style="text-decoration:none;">
+            <span class="spanFrete"> Frete Gratis</span>
+            <span id="spanOff">5% OFF</span>
+            <img src="img/relogio.jpg" alt="relogio"  class="itensImg">
+              <h1 class="text-center" style="color: black; font-size: 14pt;">RELÓGIO COLEMAN DIGITAL SOBREVIVÊNCIA DUAL TIME WR - 19680</h1>
+              <p class="text-center"><span style="text-decoration: line-through; color: black;">R$ 449,51</span> </p>
+              <h2 class="text-center" style="color:#ABCB37;">R$: 249,51</h2>
+              <h5 class="text-center" style="color: black;">à vista</h5>
+              </a>
+        </div>
+
+        <div class="col-6 col-md-4 col-lg-4 contItens contRelogio">
+             
+            <a href="pag/relogio2.html" style="text-decoration:none;">
+            <span class="spanFrete"> Frete Gratis</span>
+            <span id="spanOff">5% OFF</span>
+            <img src="img/relogio2.jpg" alt="Copo termico"  class="itensImg">
+              <h1 class="text-center" style="color: black; font-size: 14pt;">RELÓGIO COLEMAN ANALÓGICO LED LIGHT - 19720</h1>
+              <p class="text-center"><span style="text-decoration: line-through; color: black;">R$ 349,51</span> </p>
+              <h2 class="text-center" style="color:#ABCB37;">R$: 290,00</h2>
+              <h5 class="text-center" style="color: black;">à vista</h5>
+              </a>
+        </div>
+
+        <div class="col-6 col-md-4  col-lg-4 contItens mt-2 contMochila" >
+             
+            <a href="pag/mochila.html" style="text-decoration:none;">
+            <span class="spanFrete"> Frete Gratis</span>
+            <span id="spanOff">5% OFF</span>
+            <img src="img/mochila.jpg" alt="Copo termico"  class="itensImg">
+              <h1 class="text-center" style="color: black; font-size: 14pt;">MOCHILA TÁTICA LEGEND PRETA - INVICTUS</h1>
+              <p class="text-center"><span style="text-decoration: line-through; color: black;">R$ 429,51</span> </p>
+              <h2 class="text-center" style="color:#ABCB37;">R$: 377,00</h2>
+              <h5 class="text-center" style="color: black;">à vista</h5>
+              </a>
+        </div>
+
+  
+    </div>
+   </section>
+
+<footer class="bg-dark text-center text-white" style="margin-top: 120px;">
+   
+    <div class="container p-4 pb-0">
+       <section class="mb-4">
+           <h1 class="h6">Ferramentas Usadas: <strong>HTML - CSS - Bootstrap - JavaScript Vanilla </strong></h1>
+       </section>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white">Gabriel Barboza</a>
+    </div>
+</footer>
+
+</body>
+<script src="js/javascript.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</html>
